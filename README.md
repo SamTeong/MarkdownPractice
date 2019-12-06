@@ -80,10 +80,12 @@
 	<tr> 
 		<td>> Quote something<br/>
 			> - Someone</td>
-		<td><blockquote>
+		<td>
+			<blockquote>
 				Quote something<br>
 				&bull; Someone
-			</blockquote></td>
+		    </blockquote>
+		</td>
 	</tr>
 </table>
 
@@ -97,11 +99,11 @@
 			&nbsp;&nbsp;&nbsp;&nbsp;}
 		</td>
 		<td>
-			<code>
-				if (conditional) {<br/>
-				&nbsp;&nbsp;&nbsp;&nbsp;return true;<br/>
-				}
-			</code>
+			<pre><code>
+if (conditional) {
+    return true;
+}
+			</code></pre>
 		</td>
 	</tr>
 	<tr>
@@ -117,11 +119,12 @@
 			```
 		</td>
 		<td>
-			<code>
-				<span style="color:teal">if</span> (conditional) {<br/>
-					&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:teal">return</span> <span style="color:maroon">true</span>;<br/>
-				}
-			</code>
+			<pre><code>
+if</span> (conditional) { 
+	return true;
+}
+			</code></pre>
+			*Keywords will be colored. Not working here.
 		</td>
 	</tr>
 </table>
@@ -138,8 +141,8 @@
 			- [x] item 1<br/>
 			- [ ] item 2</td>
 		<td>
-			<input type="checkbox" checked> item 1</input><br/>
-			<input type="checkbox"> item 2</input>
+			&#x2612; item 1<br/>
+			&#x2610; item 2
 		</td>
 	</tr>
 	<tr>
